@@ -1,0 +1,19 @@
+
+> yo@1.4.8 postinstall /home/binayv/Binay/mytodo/node_modules/yo
+> yodoctor
+
+
+Yeoman Doctor
+Running sanity checks on your system
+
+✔ Global configuration file is valid
+✔ Node.js version
+✔ No .bowerrc file in home directory
+✔ No .yo-rc.json file in home directory
+✔ npm version
+✔ NODE_PATH matches the npm root
+
+Everything looks all right!
+/home/binayv/Binay/mytodo
+`-- yo@1.4.8 
+

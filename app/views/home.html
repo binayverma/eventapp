@@ -1,0 +1,50 @@
+<div class="row">
+<div class="row">
+	<div class="col-lg-11">
+		<h3> Upcoming Events </h3>
+	</div>
+	<div class="lead col-lg-1">
+		<i class="glyphicon glyphicon-th"></i>
+		<i class="glyphicon glyphicon-th-list"></i>
+		<i class="glyphicon glyphicon-calendar"></i>
+	</div>
+</div>
+	<div ng-repeat="image in images |filter:query|orderBy:'date'">
+	  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" >
+	    <a href="#/" class="thumbnail">
+	      <img ng-src='{{image.url}}' alt="Image" style="width:300px;height:200px;">
+	      <small style="text-decoration:none;">{{image.caption}}</small>
+	    </a>
+	  </div>
+ 	</div>
+ <!--   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" >
+    <a href="#" class="thumbnail">
+      <img src="images/test.jpg" alt="...">
+    </a>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+    <a href="#" class="thumbnail">
+      <img src="images/test.jpg" alt="...">
+    </a>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+    <a href="#" class="thumbnail">
+      <img src="images/test.jpg" alt="...">
+    </a>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+    <a href="#" class="thumbnail">
+      <img src="images/test.jpg" alt="...">
+    </a>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+    <a href="#" class="thumbnail">
+      <img src="images/test.jpg" alt="...">
+    </a>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+    <a href="#" class="thumbnail">
+      <img src="images/test.jpg" alt="...">
+    </a>
+  </div>  -->
+</div>
